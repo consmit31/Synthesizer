@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<score bpm="100" beatspermeasure="2">
+     <instrument instrument="AdditiveSynth" noisegate="1" chorus="0" flange="0">
+          <note measure="1" beat="1" duration="0.25" crossFadeIn="0.55" crossFadeOut="0.35" ADSR="0.1 0.0 1.0 0.9" amplitudes="1.0 0.8 0.6" note="Bb4"/>
+          <note measure="2" beat="1" duration="0.25" crossFadeIn="0.55" crossFadeOut="0.35" ADSR="0.1 0.0 1.0 0.9" amplitudes="1.0 0.8 0.6" note="Bb4"/>
+       
+          <note measure="3" beat="1" duration="0.25" crossFadeIn="0.55" crossFadeOut="0.35" ADSR="0.1 0.0 1.0 0.9" amplitudes="1.0 0.8 0.6 0.4" note="Bb4"/>
+          <note measure="3" beat="2" duration="0.25" crossFadeIn="0.55" crossFadeOut="0.35" ADSR="0.1 0.0 1.0 0.9" amplitudes="1.0 0.8 0.6 0.4" note="Bb4"/>
+          <note measure="4" beat="1" duration="0.25" crossFadeIn="0.55" crossFadeOut="0.35" ADSR="0.1 0.0 1.0 0.9" amplitudes="1.0 0.8 0.6 0.4" note="Bb4"/>
+
+          <note measure="5" beat="1" duration="0.25" crossFadeIn="0.55" crossFadeOut="0.35" ADSR="0.1 0.0 1.0 0.9" amplitudes="1.0 0.8 0.6 0.4" note="G4"/>
+          <note measure="5" beat="1.5" duration="0.25" crossFadeIn="0.55" crossFadeOut="0.35" ADSR="0.1 0.0 1.0 0.9" amplitudes="1.0 0.8 0.6 0.4" note="F#4"/>
+          <note measure="5" beat="2" duration="0.25" crossFadeIn="0.55" crossFadeOut="0.35" ADSR="0.1 0.0 1.0 0.9" amplitudes="1.0 0.8 0.6 0.4" note="G4"/>
+          <note measure="5" beat="2.5" duration="0.25" crossFadeIn="0.55" crossFadeOut="0.35" ADSR="0.1 0.0 1.0 0.9" amplitudes="1.0 0.8 0.6 0.4" note="G#4"/>
+
+          <note measure="6" beat="1" duration="0.5" crossFadeIn="0.55" crossFadeOut="0.35" ADSR="0.1 0.0 1.0 0.9" amplitudes="1.0 0.8 0.6 0.4" note="A4"/>
+          <note measure="6" beat="2" duration="0.5" crossFadeIn="0.55" crossFadeOut="0.35" ADSR="0.1 0.0 1.0 0.9" amplitudes="1.0 0.8 0.6 0.4" note="F4"/>
+       
+          <note measure="7" beat="1" duration="1.5" crossFadeIn="0.55" crossFadeOut="0.35" ADSR="0.1 0.0 1.0 0.9" amplitudes="1.0 0.8 0.6 0.4" note="Bb4"/>
+     </instrument>
+
+     <effect effect="NoiseGate">
+         <type threshold="50" wet="1" dry="0"/>
+     </effect>
+
+     <effect effect="Chorus">
+ 	 <type delay=".1" wet="1.0" dry="0" range=".5" rate="2"/>
+     </effect>
+
+     <effect effect="Flange">
+          <type delay=".05" wet="1" dry="0" range=".5" rate="2" level="2"/>
+     </effect>
+</score>
